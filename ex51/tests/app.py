@@ -1,7 +1,7 @@
 ifrom flask import Flask
 from flask import render_template
 from flask import request
-app = Flask(_name_)
+app = Flask(__name__)
 @app.route("/hello", methods=['POST', 'GET'])
 def index():
     greeting = "Hello World"
