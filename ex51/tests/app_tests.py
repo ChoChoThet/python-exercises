@@ -1,6 +1,6 @@
 from nose.tools import *
 from flask import Flask 
-app=Flask(__name__)
+app=Flask(_name_)
 
 app.config['TESTING'] = True
 web = app.test_client()
