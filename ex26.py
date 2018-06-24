@@ -42,7 +42,7 @@ print("With a starting point of: {}".format(start_point))
 print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 start_points=start_point / 10
 print("We can also do that this way:")
-formula = secret_formula(starts_point)
+formula = secret_formula(start_point)
 print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 people = 20
 cates = 30
